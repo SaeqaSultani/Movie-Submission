@@ -39,5 +39,5 @@ README.md
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-submission-form.git
-cd movie-submission-form
+git clone git@github.com:SaeqaSultani/Movie-Submission.git
+cd Movie-Submission
