@@ -41,3 +41,9 @@ README.md
 ```bash
 git clone git@github.com:SaeqaSultani/Movie-Submission.git
 cd Movie-Submission
+
+## Install Dependencies
+    npm install
+
+## Run the App
+    node index.js
