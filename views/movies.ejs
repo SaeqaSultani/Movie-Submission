@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/images/pop.png">
+  <title> 🎬 Movie List</title>
+  <style>
+    body {
+      background-color: #fff4e6;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      color: #d35400;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    li {
+      background: #ffe0b2;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: left;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #e67e22;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #d35400;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎥 Submitted Movies</h1>
+  <ul>
+    <% movieList.forEach(movie => { %>
+      <li><strong><%= movie.movie %></strong> — Rating: <%= movie.rating %>/10</li>
+    <% }) %>
+  </ul>
+  <a href="/" class="button">Submit Another Movie</a>
+</body>
+</html>

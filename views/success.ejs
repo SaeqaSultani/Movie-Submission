@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="/images/pop.png">
+  <title>🎉 Submission Successful</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f9d976, #f39f86);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+    }
+
+    .container {
+      background-color: #fffbea;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #e76f51;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #f4a261;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      margin-right: 10px;
+    }
+
+    .btn:hover {
+      background-color: #e76f51;
+    }
+
+    .emoji {
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="emoji">🎬🌟</div>
+    <h1>Thank you!</h1>
+    <p>Your favorite movie has been submitted successfully.</p>
+    <p><strong>Movie:</strong> <%= movie %></p>
+    <p><strong>Rating:</strong> <%= rating %>/10</p>
+    <a href="/" class="btn">Submit Another Movie</a>
+    <a href="/movies" class="btn"> View Movie List</a>
+  </div>
+</body>
+</html>
