@@ -5,8 +5,6 @@ import morgan from 'morgan';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import submitForm  from './submit-form.js';
-import fs from 'fs/promises';
-
 
 
 //initialize express app
