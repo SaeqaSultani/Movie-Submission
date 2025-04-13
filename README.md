@@ -21,29 +21,27 @@ A simple web application built with **Node.js**, **Express.js**, and **EJS** tha
 - **Body-parser** and **Morgan** middleware
 
 ## 📂 Project Structure
-
-/public
-  /images
-    popcorn.png
-/views
-  index.ejs
-  success.ejs
-  failed.ejs
-  movies.ejs
-index.js
-submit-form.js
-README.md
-
+```
+  /public
+    /images
+      popcorn.png
+  /views
+    index.ejs
+    success.ejs
+    failed.ejs
+    movies.ejs
+  index.js
+  submit-form.js
+  README.md
+```
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
+    git clone git@github.com:SaeqaSultani/Movie-Submission.git
+    cd Movie-Submission
 
-```bash
-git clone git@github.com:SaeqaSultani/Movie-Submission.git
-cd Movie-Submission
-
-## Install Dependencies
+### 2.  Install Dependencies 
     npm install
 
-## Run the App
+### 3. Run the App
     node index.js
